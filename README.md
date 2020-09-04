@@ -11,4 +11,8 @@ it actually convert the number to letter number such as
 what you have to do is :
 
 Call static function from class Convert
-and it's has only tow function English word and Arabic word 
+and it's has only tow function English word and Arabic word .
+
+Convert.convertNumberToEnglishWords("1"); // result is one
+Convert.convertNumberToArabicWords("3");  // result is three
+        
