@@ -553,4 +553,25 @@ public class Convert {
         return Integer.parseInt(String.valueOf(c));
     }
 
+      public static String getArabicNumber(String englishNumber){ //129
+
+    char[] arabicChars = {'٠','١','٢','٣','٤','٥','٦','٧','٨','٩'};
+    StringBuilder builder = new StringBuilder();
+    for(int i =0;i<englishNumber.length();i++)
+    {
+      if(Character.isDigit(englishNumber.charAt(i)))
+      {
+        builder.append(arabicChars[(int)(englishNumber.charAt(i))-48]);
+      }
+      else
+      {
+        builder.append(englishNumber.charAt(i));
+      }
+    }
+//    System.out.println("Number in English : "+englishNumber);
+//    System.out.println("Number In Arabic : "+builder.toString() );
+    return builder.toString() ;
+  }
+    
+    
 }
