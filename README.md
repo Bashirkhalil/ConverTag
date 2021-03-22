@@ -15,4 +15,8 @@ and it's has only tow function English word and Arabic word .
 
 Convert.convertNumberToEnglishWords("1"); // result is one
 Convert.convertNumberToArabicWords("3");  // result is three
+
+we recently add this function [getArabicNumber()]
+
+witch is covert English number like 1,2,3,4,5,6,7,8 to Arbaic numbers ۱,۲,۳,۴,۵,۶,۷,۸,۹
         
